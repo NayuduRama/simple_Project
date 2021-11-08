@@ -28,7 +28,7 @@ function OrganicCertifiedBeef(props) {
                 <img
                   className="h-full w-full object-cover"
                   src={bunderra2}
-                  alt="People working on laptops"
+                  alt="Main image"
                 /> 
                 <div className="absolute inset-0 bg-gradient-to-r   mix-blend-multiply" />
               </div>
@@ -75,7 +75,7 @@ function OrganicCertifiedBeef(props) {
                 <img
                   className="h-full w-full object-cover"
                   src={cattle}
-                  alt="People working on laptops"
+                  alt="Cattle image"
                 /> 
               </div>
               <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 object-right">
