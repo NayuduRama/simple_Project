@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; 
-import logo from '../logo.svg'; 
+import { Link } from 'react-router-dom';  
+import Blogo from './images/BCMYK.jpg';
 
 
 const footerNavigation = {
@@ -18,23 +18,21 @@ const footerNavigation = {
 
 function Footer(props) {
     return (
-         <footer className="bg-gray-50" aria-labelledby="footer-heading">
-        <h2 id="footer-heading" className="sr-only">
-          Footer
-        </h2>
-        <div className="max-w-full mx-auto pt-16 pb-8 px-2 sm:px-6 lg:pt-24 lg:px-8">
+      
+         <footer className="bg-gray-50" aria-labelledby="footer-heading"> 
+        <div className="max-w-full mx-auto pt-8 pb-8 px-2 sm:px-6 lg:pt-8 lg:px-8">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
 
-            <div className="mt-10 xl:mt-0">
+            <div className="mt-5 xl:mt-0">
                 <div className="flex-shrink-0 flex items-center"> 
                   <img
                     className="hidden lg:block h-auto w-auto"
-                    src={logo}
+                    src={Blogo}
                     alt="Logo"
                   />
                 </div> 
             </div>
-            <div className="grid grid-cols-2 gap-8 xl:col-span-2">
+            <div className="mt-12 grid grid-cols-2 gap-8 xl:col-span-2">
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
                   <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Bunderra Cattle Company Pty Ltd</h3>
@@ -96,6 +94,7 @@ function Footer(props) {
           </div>
         </div>
       </footer>
+      
     );
 }
 

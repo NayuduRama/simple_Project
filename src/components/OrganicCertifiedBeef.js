@@ -1,13 +1,13 @@
 import React from 'react';   
 import Header from './Header';
-import Footer from './Footer'; 
-import bunderra2 from './images/bunderra2.jpeg'; 
-import imageOne from './images/imageone.jpeg'
-import imageTwo from './images/imagetwo.jpeg'
-import imageThree from './images/imageThree.jpeg'
-import imageFour from './images/imageFour.jpeg'
-import imageFive from './images/image5.jpeg'
-import cattle from './images/Cattle_2.jpeg'
+import Footer from './Footer';  
+import kid from './images/Kid.jpeg';
+import family from './images/family.jpeg';
+import cow from './images/cow.jpeg';
+import land from './images/land.jpeg';
+import workforus from './images/workforus.jpeg';
+import factory from './images/factory.jpeg';
+import mainImg from './images/mainImg.jpeg';
  
 
 
@@ -27,7 +27,7 @@ function OrganicCertifiedBeef(props) {
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full object-cover"
-                  src={bunderra2}
+                  src={mainImg}
                   alt="Main image"
                 /> 
                 <div className="absolute inset-0 bg-gradient-to-r   mix-blend-multiply" />
@@ -74,7 +74,7 @@ function OrganicCertifiedBeef(props) {
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full object-cover"
-                  src={cattle}
+                  src={kid}
                   alt="Cattle image"
                 /> 
               </div>
@@ -96,13 +96,13 @@ function OrganicCertifiedBeef(props) {
                     <img
                       className="object-cover flex items-center justify-center h-50 w-50
                        rounded-md bg-white bg-opacity-10"
-                      src={imageOne}
+                      src={cow}
                       alt="Image one"
                     />
                     <img
                       className=" pt-3 object-cover flex items-center justify-center h-50 w-50
                        rounded-md bg-white bg-opacity-10"
-                      src={imageTwo}
+                      src={workforus}
                       alt="Image one"
                     />
                     </div>
@@ -110,13 +110,13 @@ function OrganicCertifiedBeef(props) {
                     <img
                       className=" object-cover flex items-center justify-center h-50 w-50
                        rounded-md bg-white bg-opacity-10"
-                      src={imageFive}
+                      src={factory}
                       alt="Image one"
                     />
                     <img
                       className="pt-6  object-cover flex items-center justify-center h-50 w-50
                        rounded-md bg-white bg-opacity-10"
-                      src={imageFour}
+                      src={family}
                       alt="Image one"
                     />
                     </div>
@@ -124,7 +124,7 @@ function OrganicCertifiedBeef(props) {
                     <img
                       className="  object-cover items-center justify-center h-100 w-50
                        rounded-md bg-white bg-opacity-10"
-                      src={imageThree}
+                      src={land}
                       alt="Image one"
                     /> 
                     </div> 
