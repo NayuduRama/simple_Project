@@ -22,13 +22,11 @@ function App() {
     <> 
      <Router> 
        <Switch>
-                <Route path="/" component={Home} exact/>
-                <Route path="/body" component={Body} exact/>
+                <Route path="/" component={Aboutus} exact/> 
                 <Route path="/grazingproperties" component={GrazingProperties} exact/>
                 <Route path="/organiccertifiedbeef" component={OrganicCertifiedBeef} exact/>
                 <Route path="/workforus" component={Workforus} exact/>
-                <Route path="/contactus" component={Contactus} exact/>
-                <Route path="/body" component={Body} exact/>
+                <Route path="/contactus" component={Contactus} exact/> 
                 <Route path="/aboutus" component={Aboutus} exact/>
                 <Route path="/footer" component={Footer} exact/>
                 <Route path="/other" component={Other} exact/>
