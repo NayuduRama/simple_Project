@@ -39,10 +39,8 @@ function OrganicCertifiedBeef(props) {
                   src={bpng}
                   alt="Main image"
                 /> 
-                <h1 className="text-center block  text-white text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-9xl">
-                  {/* <span className="block text-white"> */}
-                    this is bunderra
-                    {/* </span>  */}
+                <h1 className="text-center block  text-white text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-9xl"> 
+                    this is bunderra 
                 </h1>  
               </div>
             </div>

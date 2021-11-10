@@ -4,11 +4,9 @@ import {
   Switch,
 } from 'react-router-dom';
  import './App.css';
- import './styles.css';
-
- import Home from './components/Home';
- import Aboutus from './components/Aboutus';
- import Body from './components/Body';
+ import './styles.css'; 
+ 
+ import Aboutus from './components/Aboutus'; 
  import Footer from './components/Footer';
  import GrazingProperties from './components/GrazingProperties';
  import OrganicCertifiedBeef from './components/OrganicCertifiedBeef';

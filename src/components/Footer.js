@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';  
-import Blogo from './images/BCMYK.jpg';
+import { Link } from 'react-router-dom';   
 import buderralogo from './images/Blogo.png';
  
 const nav = [
