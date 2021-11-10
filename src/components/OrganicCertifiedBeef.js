@@ -1,15 +1,26 @@
 import React from 'react';   
+
 import Header from './Header';
-import Footer from './Footer';  
-import kid from './images/Kid.jpeg';
-import family from './images/family.jpeg';
-import cow from './images/cow.jpeg';
-import land from './images/land.jpeg';
-import workforus from './images/workforus.jpeg';
-import factory from './images/factory.jpeg';
-import mainImg from './images/mainImg.jpeg';
-import bpng from './images/Bpng.png';
+import Footer from './Footer';   
+import organicBeef from './images/OrganicBeef.jpeg';
+import certificateone from './images/location1.jpeg'; 
+import organicCertification from './images/OrganicCertification.jpeg'; 
+
  
+
+
+const certificates = [
+  {
+    title: 'Organic Certified',
+    description: `Not all beef is created equally, and we believe that organic beef tastes better. There are a number of reasons for this. Organic livestock production is about good practises, like choosing quality breeding stock, looking after our country long-term and natural nutrition for our animals. Our cattle move together through their lives as a mob, grazing freely on bio-diverse pastures with ample shade, low est numbers, and access to some of the purest spring water on the planet. We never use antibiotics and sythetic hormones. We try to intervene in their lives as little as possible and when we do, we use low-stress stock handling techiques to ensure our impacts is minimal. The foundation of our business is about exceptional animal practices. We know that produces the highest-quality beef and for the past decade, has also enaled us to obtain organic certification. `, 
+    imageUrl: organicCertification, 
+  },
+  {
+    title: 'Quality Assurance',
+    description: `We work hard to produce the highest-quality beef by caring for our livestock, the land and the environment. But we don't expect you to jsut take our word for it.  We engage independent consultants to help refine our internal processes and support us through annual auditing processes.  Maintaining trust with the people who eat our beef isn't something we leave to chance. We undertake a number of quality assurance programs to ensure that our meat is ethically produced and a premium quality. Our soil, water and grass is tested for contaminants, along with samples of our meat during processing.`, 
+    imageUrl: certificateone,  
+  }  
+] 
 
 
 function OrganicCertifiedBeef(props) {
@@ -28,19 +39,14 @@ function OrganicCertifiedBeef(props) {
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full object-cover"
-                  src={mainImg}
+                  src={organicBeef}
                   alt="Main image"
                 /> 
-                <div className="absolute inset-0 bg-gradient-to-r   mix-blend-multiply" />
               </div>
               <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-                <img
-                  className="h-auto w-50 object-cover"
-                  src={bpng}
-                  alt="Main image"
-                /> 
-                <h1 className="text-center block  text-white text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-9xl"> 
-                    this is bunderra 
+                 
+                <h1 className="text-center block  text-white text-4xl font-extrabold  sm:text-5xl lg:text-6xl"> 
+                    Organic Certified Beef 
                 </h1>  
               </div>
             </div>
@@ -52,20 +58,18 @@ function OrganicCertifiedBeef(props) {
             <div className="lg:mx-auto lg:max-w-6xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-5">
               <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 mt-5 ">
                 <div> 
-                  <div className="mt-12">
-                    <h1 className="text-3xl  text-right  font-extrabold tracking-tight text-white">
-                      Free-range beef from the pure, grassy heart of Australia. 
+                  <div>
+                    <h1 className="text-5xl  text-right  font-extrabold tracking-tight text-white">
+                      Organic and sustainable <br/> are more than just buzz <br/> words to us. 
                     </h1> 
                   </div>
                 </div> 
               </div>
               <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
                 <div> 
-                  <div className="mt-6"> 
-                    <p className="mt-4 text-lg text-white">
-                       Bunderra, or 'Among the Hills' is an organic beef operation with over half a milllion hectares of some of the best grazing country in Queensland and the Nothern Territory. 
-                       <br/>
-                       Our Brahman-Cross herd originated from the foothills of the Carnavon Ranges in Queesnsland's Central Highlands, and our cattle roam on those same bio-diverse pastures, free of chemicals and stress. They have an harmounious journey from paddock to plate, and we believe that's why our beef tastes better. 
+                  <div className="mt-12"> 
+                    <p className="mt-8 text-base text-white">
+                       The trust the consumers of our beef place in us is important to us. That's why we have put in place a seris of certifications and quality assurance checks to ensure our beef maintains the highest quality and lives up to the promise. 
                     </p> 
                   </div>
                 </div> 
@@ -74,69 +78,37 @@ function OrganicCertifiedBeef(props) {
             </div>
           </div> 
         </div>
-        <div className="relative"> 
-          <div className="max-w-full max-h-full mx-auto ">
-            <div className="relative shadow-xl  sm:overflow-hidden">
-              <div className="absolute inset-0">
-                <img
-                  className="h-full w-full object-cover"
-                  src={kid}
-                  alt="Cattle image"
-                /> 
-              </div>
-              <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 object-right">
-                <h2 className="absolute right-20 text-left text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-                  <span className="block text-white pr-2">Australian  owned <br/>family run</span> 
-                </h2>  
-              </div>
-            </div>
-          </div>
-        </div> 
-
-        <div className="">
-          <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-             
-            <div className="mt-12 flex items-center flex-cols-1 gap-x-3 gap-y-3 sm:flex-cols-2 lg:mt-16  ">
-              
-                  <div className='pt-6 flex-auto'>
-                    <img
-                      className="object-cover flex items-center justify-center h-50 w-50
-                       rounded-md bg-white bg-opacity-10"
-                      src={cow}
-                      alt="Image one"
-                    />
-                    <img
-                      className=" pt-3 object-cover flex items-center justify-center h-50 w-50
-                       rounded-md bg-white bg-opacity-10"
-                      src={workforus}
-                      alt="Image one"
-                    />
+        
+    <div className="bg-gray-200">
+      <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+        <div className="space-y-12 lg:grid lg:grid-cols-2 lg:gap-8 lg:space-y-0">
+           
+          <div className="lg:col-span-2">
+            <ul 
+              className="space-y-12 sm:divide-y sm:divide-gray-200 sm:space-y-0 sm:-mt-8 lg:gap-x-8 lg:space-y-0"
+            >
+              {certificates.map((certificate) => (
+                <li key={certificate.title} className="sm:py-8">
+                  <div className="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
+                    <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
+                      <img className="object-cover shadow-lg rounded-lg" src={certificate.imageUrl} alt="" />
                     </div>
-                    <div className=" pb-3 flex-auto">
-                    <img
-                      className=" object-cover flex items-center justify-center h-50 w-50
-                       rounded-md bg-white bg-opacity-10"
-                      src={factory}
-                      alt="Image one"
-                    />
-                    <img
-                      className="pt-6  object-cover flex items-center justify-center h-50 w-50
-                       rounded-md bg-white bg-opacity-10"
-                      src={family}
-                      alt="Image one"
-                    />
+                    <div className="sm:col-span-2">
+                      <div className="space-y-4">
+                        <div className="text-gray-400 leading-6 font-medium space-y-1">
+                          <h1 className='text-6xl'>{certificate.title}</h1>
+                          <p>{certificate.description}</p>
+                        </div>  
+                      </div>
                     </div>
-                    <div className="flex-auto">
-                    <img
-                      className="  object-cover items-center justify-center h-100 w-50
-                       rounded-md bg-white bg-opacity-10"
-                      src={land}
-                      alt="Image one"
-                    /> 
-                    </div> 
-            </div>
+                  </div>
+                </li>
+              ))}
+            </ul>
           </div>
-        </div> 
+        </div>
+      </div>
+    </div>  
     </div> 
     </main> 
       <Footer />

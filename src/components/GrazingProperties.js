@@ -74,10 +74,8 @@ function GrazingProperties(props) {
                   src={bpng}
                   alt="Main image"
                 /> 
-                <h1 className="text-center block  text-white text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-9xl">
-                  {/* <span className="block text-white"> */}
-                   grazaing properties
-                    {/* </span>  */}
+                <h1 className="text-center block  text-white text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-9xl"> 
+                   grazaing properties 
                 </h1>  
               </div>
             </div>
