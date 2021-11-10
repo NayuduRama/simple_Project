@@ -8,6 +8,7 @@ import land from './images/land.jpeg';
 import workforus from './images/workforus.jpeg';
 import factory from './images/factory.jpeg';
 import mainImg from './images/mainImg.jpeg';
+import bpng from './images/Bpng.png';
  
 
 
@@ -33,8 +34,15 @@ function OrganicCertifiedBeef(props) {
                 <div className="absolute inset-0 bg-gradient-to-r   mix-blend-multiply" />
               </div>
               <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-                <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-                  <span className="block text-white">this is bunderra</span> 
+                <img
+                  className="h-auto w-50 object-cover"
+                  src={bpng}
+                  alt="Main image"
+                /> 
+                <h1 className="text-center block  text-white text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-9xl">
+                  {/* <span className="block text-white"> */}
+                    this is bunderra
+                    {/* </span>  */}
                 </h1>  
               </div>
             </div>
