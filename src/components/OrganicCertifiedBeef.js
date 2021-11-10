@@ -113,6 +113,7 @@ function OrganicCertifiedBeef(props) {
     </main> 
       <Footer />
     </div>  
+    
     );
 }
 
