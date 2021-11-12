@@ -1,14 +1,15 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';  
-import kid from './images/Kid.jpeg';
-import family from './images/family.jpeg';
-import cow from './images/cow.jpeg';
-import land from './images/land.jpeg';
-import workforus from './images/workforus.jpeg';
-import factory from './images/factory.jpeg';
-import mainImg from './images/mainImg.jpeg';
-import bpng from './images/Bpng.png';
+
+import kid from './resizedImages/Kid.jpeg';
+import family from './resizedImages/family.jpeg';
+import cow from './resizedImages/cow.jpeg';
+import land from './resizedImages/land.jpeg';
+import workforus from './resizedImages/workforus.jpeg';
+import factory from './resizedImages/factory.jpeg';
+import mainImg from './resizedImages/mainImg2.jpeg';
+import bpng from './images/Bpng.png'; 
 
 function Aboutus(props) {
     return (
@@ -19,12 +20,12 @@ function Aboutus(props) {
     </div>
     <main className="flex-grow"> 
       <div className="bg-white"> 
-        <div className="relative ">
+        <div className="min-h-screen  relative ">
           <div className=" max-w-full mx-auto  ">
             <div className="relative  max-w-full  sm:overflow-hidden">
               <div className="absolute inset-0">
                 <img
-                  className="h-full w-full object-cover"
+                  className="w-full object-cover"
                   src={mainImg}
                   alt="Main image"
                 /> 
